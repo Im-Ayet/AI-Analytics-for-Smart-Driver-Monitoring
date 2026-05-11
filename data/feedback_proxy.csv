@@ -1,0 +1,114 @@
+trip_id,driver_id,timestamp,rating,sentiment_label,complaint_topic,feedback_text
+TRN-TRIP-013,D001,3582050,3,neutral,consistency,Trip was acceptable. Trip label was normal with violation score 57.14. There is room for improvement.
+TRN-TRIP-037,D001,3582916,2,negative,aggressive_behavior,Driver was too aggressive. Trip label was aggressive with violation score 91.56. The driving needs attention.
+TRN-TRIP-043,D001,3583188,4,positive,safe_driving,Ride felt safe. Trip label was slow with violation score 18.58. No major issues noticed.
+TRN-TRIP-061,D001,3583791,4,positive,safe_driving,Trip was comfortable. Trip label was slow with violation score 44.57. The trip felt calm and controlled.
+TST-TRIP-001,D001,818954,2,negative,aggressive_behavior,Trip felt unsafe. Trip label was aggressive with violation score 72.46. Please coach this driver.
+TST-TRIP-043,D001,820436,4,positive,safe_driving,Driver was professional. Trip label was slow with violation score 19.88. Very steady handling.
+TRN-TRIP-014,D002,3582082,4,positive,safe_driving,Ride felt safe. Trip label was normal with violation score 28.79. No major issues noticed.
+TRN-TRIP-038,D002,3582948,2,negative,aggressive_behavior,Braking felt too harsh. Trip label was aggressive with violation score 74.51. I noticed risky maneuvering during the trip.
+TRN-TRIP-044,D002,3583220,4,positive,safe_driving,Smooth trip overall. Trip label was slow with violation score 19.68. I would ride again.
+TST-TRIP-002,D002,818986,2,negative,aggressive_behavior,Driver was too aggressive. Trip label was aggressive with violation score 70.07. The driving needs attention.
+TST-TRIP-044,D002,820469,4,positive,safe_driving,Ride felt safe. Trip label was slow with violation score 20.89. No major issues noticed.
+TRN-TRIP-015,D003,3582114,4,positive,safe_driving,Trip was comfortable. Trip label was normal with violation score 43.31. The trip felt calm and controlled.
+TRN-TRIP-021,D003,3582398,2,negative,aggressive_behavior,Trip felt unsafe. Trip label was aggressive with violation score 80.08. Please coach this driver.
+TRN-TRIP-039,D003,3583058,2,negative,aggressive_behavior,Driver was too aggressive. Trip label was aggressive with violation score 91.60. The driving needs attention.
+TRN-TRIP-045,D003,3583253,4,positive,safe_driving,Ride felt safe. Trip label was slow with violation score 28.02. No major issues noticed.
+TST-TRIP-003,D003,819019,2,negative,aggressive_behavior,Braking felt too harsh. Trip label was aggressive with violation score 74.77. I noticed risky maneuvering during the trip.
+TST-TRIP-015,D003,819486,4,positive,safe_driving,Smooth trip overall. Trip label was normal with violation score 35.72. I would ride again.
+TST-TRIP-045,D003,820501,4,positive,safe_driving,Driver was professional. Trip label was slow with violation score 25.26. Very steady handling.
+TRN-TRIP-016,D004,3582147,4,positive,safe_driving,Ride felt safe. Trip label was normal with violation score 41.45. No major issues noticed.
+TRN-TRIP-022,D004,3582430,2,negative,aggressive_behavior,Braking felt too harsh. Trip label was aggressive with violation score 95.09. I noticed risky maneuvering during the trip.
+TRN-TRIP-046,D004,3583285,4,positive,safe_driving,Smooth trip overall. Trip label was slow with violation score 19.77. I would ride again.
+TST-TRIP-004,D004,819051,2,negative,aggressive_behavior,Driver was too aggressive. Trip label was aggressive with violation score 94.36. The driving needs attention.
+TST-TRIP-016,D004,819518,4,positive,safe_driving,Ride felt safe. Trip label was normal with violation score 40.41. No major issues noticed.
+TST-TRIP-046,D004,820534,4,positive,safe_driving,Trip was comfortable. Trip label was slow with violation score 21.87. The trip felt calm and controlled.
+TRN-TRIP-017,D005,3582179,4,positive,safe_driving,Smooth trip overall. Trip label was normal with violation score 39.36. I would ride again.
+TRN-TRIP-023,D005,3582462,2,negative,aggressive_behavior,Driver was too aggressive. Trip label was aggressive with violation score 70.26. The driving needs attention.
+TRN-TRIP-047,D005,3583317,4,positive,safe_driving,Ride felt safe. Trip label was slow with violation score 21.24. No major issues noticed.
+TST-TRIP-005,D005,819084,1,negative,aggressive_behavior,Braking felt too harsh. Trip label was aggressive with violation score 106.46. I noticed risky maneuvering during the trip.
+TST-TRIP-017,D005,819551,3,neutral,consistency,Trip was acceptable. Trip label was normal with violation score 52.67. There is room for improvement.
+TST-TRIP-047,D005,820566,4,positive,safe_driving,Driver was professional. Trip label was slow with violation score 32.24. Very steady handling.
+TRN-TRIP-018,D006,3582212,3,neutral,consistency,Ride was average. Trip label was normal with violation score 50.70. The ride was not bad but not great.
+TRN-TRIP-024,D006,3582495,3,neutral,consistency,Some parts were fine. Trip label was aggressive with violation score 63.08. Some sharper turns were noticeable.
+TRN-TRIP-048,D006,3583379,4,positive,safe_driving,Smooth trip overall. Trip label was slow with violation score 22.16. I would ride again.
+TST-TRIP-006,D006,819116,2,negative,aggressive_behavior,Driver was too aggressive. Trip label was aggressive with violation score 83.15. The driving needs attention.
+TST-TRIP-018,D006,819583,3,neutral,consistency,Ride was average. Trip label was normal with violation score 66.29. The ride was not bad but not great.
+TST-TRIP-048,D006,820598,4,positive,safe_driving,Trip was comfortable. Trip label was slow with violation score 26.28. The trip felt calm and controlled.
+TRN-TRIP-001,D007,3581661,4,positive,safe_driving,Smooth trip overall. Trip label was normal with violation score 29.77. I would ride again.
+TRN-TRIP-019,D007,3582244,4,positive,safe_driving,Driver was professional. Trip label was normal with violation score 32.88. Very steady handling.
+TRN-TRIP-025,D007,3582527,2,negative,aggressive_behavior,Ride was uncomfortable. Trip label was aggressive with violation score 73.33. Frequent sudden motions were worrying.
+TRN-TRIP-049,D007,3583411,4,positive,safe_driving,Trip was comfortable. Trip label was slow with violation score 20.00. The trip felt calm and controlled.
+TST-TRIP-007,D007,819148,2,negative,aggressive_behavior,Trip felt unsafe. Trip label was aggressive with violation score 71.06. Please coach this driver.
+TST-TRIP-019,D007,819615,3,neutral,consistency,Driver was okay. Trip label was normal with violation score 60.06. A bit more consistency would help.
+TST-TRIP-031,D007,820048,4,positive,safe_driving,Ride felt safe. Trip label was slow with violation score 42.68. No major issues noticed.
+TST-TRIP-049,D007,820631,5,positive,safe_driving,Trip was comfortable. Trip label was slow with violation score 14.58. The trip felt calm and controlled.
+TRN-TRIP-002,D008,3581693,4,positive,safe_driving,Smooth trip overall. Trip label was normal with violation score 40.33. I would ride again.
+TRN-TRIP-020,D008,3582276,3,neutral,consistency,Driver was okay. Trip label was normal with violation score 55.07. A bit more consistency would help.
+TRN-TRIP-026,D008,3582560,3,neutral,consistency,Ride was average. Trip label was aggressive with violation score 67.13. The ride was not bad but not great.
+TRN-TRIP-050,D008,3583444,4,positive,safe_driving,Trip was comfortable. Trip label was slow with violation score 39.40. The trip felt calm and controlled.
+TST-TRIP-008,D008,819181,3,neutral,consistency,Trip was acceptable. Trip label was aggressive with violation score 60.61. There is room for improvement.
+TST-TRIP-020,D008,819648,3,neutral,consistency,Driver was okay. Trip label was normal with violation score 50.84. A bit more consistency would help.
+TST-TRIP-032,D008,820080,4,positive,safe_driving,Ride felt safe. Trip label was slow with violation score 18.68. No major issues noticed.
+TST-TRIP-050,D008,820663,5,positive,safe_driving,Trip was comfortable. Trip label was slow with violation score 15.85. The trip felt calm and controlled.
+TRN-TRIP-003,D009,3581726,4,positive,safe_driving,Smooth trip overall. Trip label was normal with violation score 38.82. I would ride again.
+TRN-TRIP-027,D009,3582592,2,negative,aggressive_behavior,Driver was too aggressive. Trip label was aggressive with violation score 75.20. The driving needs attention.
+TRN-TRIP-051,D009,3583476,4,positive,safe_driving,Ride felt safe. Trip label was slow with violation score 28.21. No major issues noticed.
+TST-TRIP-009,D009,819213,3,neutral,consistency,Some parts were fine. Trip label was aggressive with violation score 68.87. Some sharper turns were noticeable.
+TST-TRIP-021,D009,819680,4,positive,safe_driving,Smooth trip overall. Trip label was normal with violation score 35.01. I would ride again.
+TST-TRIP-033,D009,820112,4,positive,safe_driving,Driver was professional. Trip label was slow with violation score 33.73. Very steady handling.
+TST-TRIP-051,D009,820696,5,positive,safe_driving,Ride felt safe. Trip label was slow with violation score 16.22. No major issues noticed.
+TRN-TRIP-004,D010,3581758,4,positive,safe_driving,Trip was comfortable. Trip label was normal with violation score 34.65. The trip felt calm and controlled.
+TRN-TRIP-028,D010,3582624,3,neutral,consistency,Trip was acceptable. Trip label was aggressive with violation score 57.16. There is room for improvement.
+TRN-TRIP-052,D010,3583509,4,positive,safe_driving,Driver was professional. Trip label was slow with violation score 25.65. Very steady handling.
+TST-TRIP-010,D010,819246,2,negative,aggressive_behavior,Ride was uncomfortable. Trip label was aggressive with violation score 96.48. Frequent sudden motions were worrying.
+TST-TRIP-022,D010,819713,4,positive,safe_driving,Trip was comfortable. Trip label was normal with violation score 36.64. The trip felt calm and controlled.
+TST-TRIP-034,D010,820145,4,positive,safe_driving,Smooth trip overall. Trip label was slow with violation score 32.11. I would ride again.
+TST-TRIP-052,D010,820709,4,positive,safe_driving,Driver was professional. Trip label was slow with violation score 43.20. Very steady handling.
+TRN-TRIP-005,D011,3581790,4,positive,safe_driving,Ride felt safe. Trip label was normal with violation score 34.60. No major issues noticed.
+TRN-TRIP-029,D011,3582657,3,neutral,consistency,Some parts were fine. Trip label was aggressive with violation score 59.43. Some sharper turns were noticeable.
+TRN-TRIP-053,D011,3583541,4,positive,safe_driving,Smooth trip overall. Trip label was slow with violation score 37.44. I would ride again.
+TST-TRIP-011,D011,819278,2,negative,aggressive_behavior,Driver was too aggressive. Trip label was aggressive with violation score 83.44. The driving needs attention.
+TST-TRIP-023,D011,819745,4,positive,safe_driving,Ride felt safe. Trip label was normal with violation score 30.13. No major issues noticed.
+TST-TRIP-035,D011,820177,4,positive,safe_driving,Trip was comfortable. Trip label was slow with violation score 26.84. The trip felt calm and controlled.
+TRN-TRIP-006,D012,3581823,4,positive,safe_driving,Smooth trip overall. Trip label was normal with violation score 27.06. I would ride again.
+TRN-TRIP-030,D012,3582689,2,negative,aggressive_behavior,Driver was too aggressive. Trip label was aggressive with violation score 85.55. The driving needs attention.
+TRN-TRIP-054,D012,3583573,4,positive,safe_driving,Ride felt safe. Trip label was slow with violation score 22.83. No major issues noticed.
+TST-TRIP-012,D012,819310,3,neutral,consistency,Some parts were fine. Trip label was aggressive with violation score 65.17. Some sharper turns were noticeable.
+TST-TRIP-024,D012,819777,4,positive,safe_driving,Smooth trip overall. Trip label was normal with violation score 30.70. I would ride again.
+TST-TRIP-036,D012,820210,4,positive,safe_driving,Driver was professional. Trip label was slow with violation score 31.49. Very steady handling.
+TRN-TRIP-007,D013,3581855,4,positive,safe_driving,Ride felt safe. Trip label was normal with violation score 42.27. No major issues noticed.
+TRN-TRIP-031,D013,3582722,2,negative,aggressive_behavior,Braking felt too harsh. Trip label was aggressive with violation score 87.27. I noticed risky maneuvering during the trip.
+TRN-TRIP-055,D013,3583606,4,positive,safe_driving,Smooth trip overall. Trip label was slow with violation score 19.80. I would ride again.
+TST-TRIP-013,D013,819343,3,neutral,consistency,Driver was okay. Trip label was aggressive with violation score 62.73. A bit more consistency would help.
+TST-TRIP-025,D013,819810,4,positive,safe_driving,Ride felt safe. Trip label was normal with violation score 40.20. No major issues noticed.
+TST-TRIP-037,D013,820242,4,positive,safe_driving,Trip was comfortable. Trip label was slow with violation score 34.66. The trip felt calm and controlled.
+TRN-TRIP-008,D014,3581888,4,positive,safe_driving,Smooth trip overall. Trip label was normal with violation score 34.36. I would ride again.
+TRN-TRIP-032,D014,3582754,2,negative,aggressive_behavior,Driver was too aggressive. Trip label was aggressive with violation score 71.59. The driving needs attention.
+TRN-TRIP-056,D014,3583638,4,positive,safe_driving,Ride felt safe. Trip label was slow with violation score 29.36. No major issues noticed.
+TST-TRIP-014,D014,819453,2,negative,aggressive_behavior,Braking felt too harsh. Trip label was aggressive with violation score 80.61. I noticed risky maneuvering during the trip.
+TST-TRIP-026,D014,819842,4,positive,safe_driving,Smooth trip overall. Trip label was normal with violation score 34.25. I would ride again.
+TST-TRIP-038,D014,820274,4,positive,safe_driving,Driver was professional. Trip label was slow with violation score 33.06. Very steady handling.
+TRN-TRIP-009,D015,3581920,4,positive,safe_driving,Ride felt safe. Trip label was normal with violation score 33.27. No major issues noticed.
+TRN-TRIP-033,D015,3582786,2,negative,aggressive_behavior,Braking felt too harsh. Trip label was aggressive with violation score 80.05. I noticed risky maneuvering during the trip.
+TRN-TRIP-057,D015,3583671,5,positive,safe_driving,Smooth trip overall. Trip label was slow with violation score 16.25. I would ride again.
+TST-TRIP-027,D015,819875,4,positive,safe_driving,Driver was professional. Trip label was normal with violation score 38.87. Very steady handling.
+TST-TRIP-039,D015,820307,4,positive,safe_driving,Ride felt safe. Trip label was slow with violation score 20.45. No major issues noticed.
+TRN-TRIP-010,D016,3581952,3,neutral,consistency,Some parts were fine. Trip label was normal with violation score 66.66. Some sharper turns were noticeable.
+TRN-TRIP-034,D016,3582819,3,neutral,consistency,Trip was acceptable. Trip label was aggressive with violation score 61.00. There is room for improvement.
+TRN-TRIP-040,D016,3583091,4,positive,safe_driving,Driver was professional. Trip label was slow with violation score 27.10. Very steady handling.
+TRN-TRIP-058,D016,3583703,4,positive,safe_driving,Ride felt safe. Trip label was slow with violation score 25.54. No major issues noticed.
+TST-TRIP-028,D016,819907,4,positive,safe_driving,Trip was comfortable. Trip label was normal with violation score 41.57. The trip felt calm and controlled.
+TST-TRIP-040,D016,820339,5,positive,safe_driving,Smooth trip overall. Trip label was slow with violation score 14.80. I would ride again.
+TRN-TRIP-011,D017,3581985,4,positive,safe_driving,Driver was professional. Trip label was normal with violation score 40.07. Very steady handling.
+TRN-TRIP-035,D017,3582851,2,negative,aggressive_behavior,Ride was uncomfortable. Trip label was aggressive with violation score 81.94. Frequent sudden motions were worrying.
+TRN-TRIP-041,D017,3583123,4,positive,safe_driving,Trip was comfortable. Trip label was slow with violation score 31.68. The trip felt calm and controlled.
+TRN-TRIP-059,D017,3583735,4,positive,safe_driving,Smooth trip overall. Trip label was slow with violation score 27.66. I would ride again.
+TST-TRIP-029,D017,819939,4,positive,safe_driving,Driver was professional. Trip label was normal with violation score 34.61. Very steady handling.
+TST-TRIP-041,D017,820372,4,positive,safe_driving,Ride felt safe. Trip label was slow with violation score 22.39. No major issues noticed.
+TRN-TRIP-012,D018,3582017,4,positive,safe_driving,Trip was comfortable. Trip label was normal with violation score 40.71. The trip felt calm and controlled.
+TRN-TRIP-036,D018,3582884,2,negative,aggressive_behavior,Trip felt unsafe. Trip label was aggressive with violation score 74.63. Please coach this driver.
+TRN-TRIP-042,D018,3583155,4,positive,safe_driving,Driver was professional. Trip label was slow with violation score 24.57. Very steady handling.
+TRN-TRIP-060,D018,3583768,4,positive,safe_driving,Ride felt safe. Trip label was slow with violation score 22.72. No major issues noticed.
+TST-TRIP-030,D018,819972,4,positive,safe_driving,Trip was comfortable. Trip label was normal with violation score 39.33. The trip felt calm and controlled.
+TST-TRIP-042,D018,820404,4,positive,safe_driving,Smooth trip overall. Trip label was slow with violation score 20.48. I would ride again.

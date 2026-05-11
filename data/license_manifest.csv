@@ -1,0 +1,13 @@
+record_id,image_path,label,issue_type,expected_name,license_number
+LIC-001,data/licenses/genuine_001.png,genuine,clean_template,Driver 001,LAM00001
+LIC-002,data/licenses/forged_002.png,forged,text_tamper,Driver 002,LAM00002
+LIC-003,data/licenses/forged_003.png,forged,photo_swap,Driver 003,LAM00003
+LIC-004,data/licenses/forged_004.png,forged,noise_overlay,Driver 004,LAM00004
+LIC-005,data/licenses/genuine_005.png,genuine,clean_template,Driver 005,LAM00005
+LIC-006,data/licenses/forged_006.png,forged,text_tamper,Driver 006,LAM00006
+LIC-007,data/licenses/forged_007.png,forged,photo_swap,Driver 007,LAM00007
+LIC-008,data/licenses/forged_008.png,forged,noise_overlay,Driver 008,LAM00008
+LIC-009,data/licenses/genuine_009.png,genuine,clean_template,Driver 009,LAM00009
+LIC-010,data/licenses/forged_010.png,forged,text_tamper,Driver 010,LAM00010
+LIC-011,data/licenses/forged_011.png,forged,photo_swap,Driver 011,LAM00011
+LIC-012,data/licenses/forged_012.png,forged,noise_overlay,Driver 012,LAM00012

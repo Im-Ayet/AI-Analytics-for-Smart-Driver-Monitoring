@@ -1,0 +1,7 @@
+module,primary_dataset,support_dataset,target_outputs,coverage,gaps,status
+telematics,DBRA24,Driving Behavior,data/processed/telematics_master.csv;data/processed/trip_features.csv,"driver_id, trip_id, timestamp, gps, speed, route anomaly, trip metrics","no native ratings text feedback; some sensor fields differ",planned
+violations,Traffic Violations from Data.gov,,data/processed/violations_master.csv,"violation records, categories, dates, locations","not direct telematics or driver ratings",planned
+video_cv,Highway Traffic Videos,Vehicle Tracking,data/raw/highway_traffic_videos;data/raw/vehicle_tracking,"traffic scenes, detection, tracking","not trip ratings or passenger feedback",planned
+ratings,synthetic from telematics,,data/driver_ratings_proxy.csv,"driver_id, trip_id, rating, complaints_count","synthetic not real user ratings",implemented
+feedback,synthetic from ratings,,data/feedback_proxy.csv,"trip_id, feedback_text, timestamp","synthetic not real passenger comments",implemented
+forgery,synthetic license set,,data/license_manifest.csv;data/licenses/,"good vs forged license workflow scaffold","image files still to be generated locally",partial
