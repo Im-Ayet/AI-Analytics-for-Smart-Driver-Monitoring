@@ -1,6 +1,3 @@
-# Week 4 Multi-Dataset Plan
-
-This project will use different datasets for different Week 4 modules instead of expecting one dataset to cover everything.
 
 ## Selected Sources
 
