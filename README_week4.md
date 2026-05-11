@@ -1,9 +1,5 @@
-# Week 4 Deliverables
+# Deliverables
 
-This folder contains a starter Week 4 submission built from the driving-behavior motion files:
-
-- `/Users/ayet_dub/Library/CloudStorage/OneDrive-Personal/Lamina_Documentation/archive/train_motion_data.csv`
-- `/Users/ayet_dub/Library/CloudStorage/OneDrive-Personal/Lamina_Documentation/archive/test_motion_data.csv`
 
 ## What was created
 
