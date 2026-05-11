@@ -1,6 +1,6 @@
 # AI and Analytics for Smart Driver Monitoring
 
-This repository contains a Week 4 to 5 project for smart driver monitoring using Python notebooks, synthetic support datasets, and a small Streamlit demo.
+This repository contains a project for smart driver monitoring using Python notebooks, synthetic support datasets, and a small Streamlit demo.
 
 The project covers:
 - telemetry data preparation
