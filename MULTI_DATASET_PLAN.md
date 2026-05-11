@@ -1,6 +1,3 @@
-# Week 4 Multi-Dataset Plan
-
-This project will use different datasets for different Week 4 modules instead of expecting one dataset to cover everything.
 
 ## Selected Sources
 
@@ -61,7 +58,7 @@ Current project approach:
 Reason:
 - the selected driving and violation datasets do not provide passenger text feedback or a direct 1-to-5 driver rating table
 
-### 5. Forgery detection
+### Forgery detection
 
 Current project approach:
 - synthetic `license_manifest.csv`
@@ -72,7 +69,7 @@ Reason:
 
 ## Recommended Module Mapping
 
-### Module 1: Data collection and synthetic data
+### Data collection and synthetic data
 
 - Download DBRA24
 - Download Driving Behavior
@@ -81,30 +78,30 @@ Reason:
 - Download Vehicle Tracking
 - Generate synthetic ratings, feedback, and license images locally
 
-### Module 2: EDA and feature engineering
+### EDA and feature engineering
 
 - Use DBRA24 as the main trip dataset
 - Use Driving Behavior as motion-sensor support
 
-### Module 3: Driver ratings
+### Driver ratings
 
 - Use engineered telematics features
 - Predict synthetic rating proxy or delivery-style rating if a new ratings dataset is later added
 
-### Module 4: Feedback analytics
+### Feedback analytics
 
 - Use synthetic feedback table for now
 
-### Module 5: Violations detection
+### Violations detection
 
 - Use Driving Behavior and DBRA24 features
 - Optionally enrich labels or categories from Traffic Violations
 
-### Module 6: Forgery detection
+### Forgery detection
 
 - Use synthetic license images until a real document dataset is added
 
-### Module 7: Integration and dashboard
+### Integration and dashboard
 
 - Use the processed dashboard table as the Tableau, Power BI, or Metabase source
 
