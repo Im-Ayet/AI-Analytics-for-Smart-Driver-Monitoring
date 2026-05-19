@@ -254,6 +254,22 @@ def inject_styles() -> None:
             font-size: 0.82rem;
             padding: 0.38rem 0.5rem;
         }
+        .mini-note {
+            color: var(--muted);
+            font-size: 0.82rem;
+            line-height: 1.45;
+            margin-top: 0.65rem;
+        }
+        [data-testid="stFileUploaderDropzone"] {
+            background: var(--surface) !important;
+            border: 2px dashed #9ec5ad !important;
+            border-radius: 12px !important;
+        }
+        [data-testid="stFileUploaderDropzoneInstructions"] div,
+        [data-testid="stFileUploaderDropzoneInstructions"] span,
+        [data-testid="stFileUploaderDropzone"] small {
+            color: var(--muted) !important;
+        }
         .dashboard-header {
             display: flex;
             align-items: end;
@@ -617,32 +633,56 @@ def render_overview(driver_df: pd.DataFrame, trip_df: pd.DataFrame) -> None:
 
 def render_telemetry_tab() -> None:
     st.subheader("Telemetry Upload and Scoring")
-    st.markdown(
-        """
-        <div class="panel">
-            <div class="panel-title">Upload a Trip-Level Telemetry File</div>
-            <div class="panel-copy">
-                Use a CSV that already contains the engineered trip features used by the rating and
-                violation models. After upload, the app will score each row with a predicted driver
-                rating, violation probability, and a trip risk band.
+    left, right = st.columns([1.05, 0.95], gap="large")
+
+    with left:
+        st.markdown(
+            """
+            <div class="panel">
+                <div class="panel-title">Upload a Trip-Level Telemetry File</div>
+                <div class="panel-copy">
+                    Upload a CSV with engineered trip features. We will score every row with a predicted
+                    driver rating, violation probability, and a simple risk band.
+                </div>
+                <div class="mini-note">
+                    Tip: if you need a reference format, download the sample telemetry file below and
+                    reuse its column structure.
+                </div>
             </div>
-            <div class="feature-grid">
-                <div class="feature-chip">avg_acc_mag</div>
-                <div class="feature-chip">max_acc_mag</div>
-                <div class="feature-chip">std_acc_mag</div>
-                <div class="feature-chip">avg_gyro_mag</div>
-                <div class="feature-chip">max_gyro_mag</div>
-                <div class="feature-chip">avg_jerk_mag</div>
-                <div class="feature-chip">harsh_accel_events</div>
-                <div class="feature-chip">sharp_turn_events</div>
-                <div class="feature-chip">sudden_motion_events</div>
-                <div class="feature-chip">samples</div>
-                <div class="feature-chip">duration_ticks</div>
+            """,
+            unsafe_allow_html=True,
+        )
+        sample_csv = (BASE_DIR / "data" / "telematics_trip_summary.csv").read_bytes()
+        st.download_button(
+            "Download sample telemetry CSV",
+            data=sample_csv,
+            file_name="sample_telematics_trip_summary.csv",
+            mime="text/csv",
+            use_container_width=True,
+        )
+
+    with right:
+        st.markdown(
+            """
+            <div class="panel">
+                <div class="panel-title">Required Feature Columns</div>
+                <div class="feature-grid">
+                    <div class="feature-chip">avg_acc_mag</div>
+                    <div class="feature-chip">max_acc_mag</div>
+                    <div class="feature-chip">std_acc_mag</div>
+                    <div class="feature-chip">avg_gyro_mag</div>
+                    <div class="feature-chip">max_gyro_mag</div>
+                    <div class="feature-chip">avg_jerk_mag</div>
+                    <div class="feature-chip">harsh_accel_events</div>
+                    <div class="feature-chip">sharp_turn_events</div>
+                    <div class="feature-chip">sudden_motion_events</div>
+                    <div class="feature-chip">samples</div>
+                    <div class="feature-chip">duration_ticks</div>
+                </div>
             </div>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+            """,
+            unsafe_allow_html=True,
+        )
 
     uploaded_file = st.file_uploader("Upload telemetry CSV", type=["csv"], key="telemetry_csv")
     if uploaded_file is None:
